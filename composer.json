@@ -1,0 +1,25 @@
+{
+    "name": "beshkenadze/packager",
+    "type": "library",
+    "description": "Packager is a PHP 5.2+ library to concatenate libraries split in multiple files in a single file. It automatically calculates dependancies. Packager requires a yml header syntax in every file, and a package.yml manifest file, as seen on the MooTools project.",
+    "keywords": ["package","javascript", "mootools"],
+    "homepage": "https://github.com/beshkenadze/packager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerio Proietti",
+            "email": "kamicane@gmail.com",
+            "homepage": "http://mad4milk.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Aleksandr Beshkenadze",
+            "email": "beshkenadze@gmail.com",
+            "homepage": "http://beshkenadze.net",
+            "role": "Contributor"
+        },
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    }
+}
