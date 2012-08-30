@@ -17,7 +17,7 @@
             "email": "beshkenadze@gmail.com",
             "homepage": "http://beshkenadze.net",
             "role": "Contributor"
-        },
+        }
     ],
     "require": {
         "php": ">=5.2.0"
