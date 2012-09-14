@@ -20,7 +20,6 @@ Class Packager {
 	}
 	
 	private function parse_manifest($path){
-		if(!isset($path)) return;
 		if (is_dir($path)){
 			$pathinfo = pathinfo($path);
 			$package_path = $pathinfo['dirname'] . '/' . $pathinfo['basename'] . '/';
