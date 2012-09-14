@@ -20,6 +20,7 @@ Class Packager {
 	}
 	
 	private function parse_manifest($path){
+		if(!isset($path)) return;
 		$pathinfo = pathinfo($path);
 		
 		if (is_dir($path)){
