@@ -21,10 +21,8 @@ Class Packager {
 	
 	private function parse_manifest($path){
 		if(!isset($path)) return;
-		$pathinfo = pathinfo($path);
-		
 		if (is_dir($path)){
-			
+			$pathinfo = pathinfo($path);
 			$package_path = $pathinfo['dirname'] . '/' . $pathinfo['basename'] . '/';
 			
 			if (file_exists($package_path . 'package.yml')){
